@@ -1,4 +1,4 @@
-ofrom awsglue.utils import getResolvedOptions
+from awsglue.utils import getResolvedOptions
 import sys
 from pyspark.sql.functions import when
 from pyspark.sql import SparkSession
